@@ -2,7 +2,7 @@
 
 # Identifying Pneumonia by Chest X-Ray Images
 
-![chest-xray-image](./media/636619135583776321-GettyImages-530196490.jpg)
+
 
 
 ## ***Repository Contents***
@@ -40,7 +40,7 @@ Pneumonia is usually caused by infection with viruses or bacteria and less commo
 
 The goal of this project is constructing a convolutional neural network (CNN) to identify whether a patient has pneumonia or not by classifying their chest X-ray images. This project is adequately scoped and focuses on one specific type of disease rather than targeting multiple diagnosis. Creating a robust algorithm that provides fast and accurate diagnosis is beneficial for both patients and medical proffesionals.
 
-![pair_plot](./media/pair.png)
+
 
 
 ## ***2. Data***
@@ -50,7 +50,7 @@ Source: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 The data used was collected from Mendeley public datasets repository and described as Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification. The dataset consists of 5856 X-Ray images (JPEG) and 2 categories: Pneumonia/Normal. Pneumonia images are to be annotated as  Bacterial or Noraml or Viral in file names that were later separated to build a multiclass classification network.  
 Approximately 10% of the images from each category have to be moved to test folder to be used in validation of the model.
 
-![data](./media/data.png)
+
 
 
 ## ***4. Web Application***
@@ -60,7 +60,7 @@ A web application was built where user uploads a chest x-ray image and immediate
 2- Bacterial Pneumonia  
 3- Viral Pneumonia  
 
-![flask-app](./media/flask.png)
+
 
 
 ## ***5. Next Steps***
